@@ -1,0 +1,25 @@
+.azul{
+
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+    margin: 4%;
+
+}
+.vermelho{
+border: 1px solid black;
+width: 50%;
+height: 100px;
+background-color: red;
+display: flex;
+margin: 4%;
+
+}
+
+.pai{
+display: flex;
+
+
+}
+
