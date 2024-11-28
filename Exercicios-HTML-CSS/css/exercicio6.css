@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);  /* 8 colunas de 80px */
+    grid-template-rows: repeat(8, 80px);     /* 8 linhas de 80px */
+    gap: 0;  /* Sem espaço entre as casas */
+    border: 2px solid #333;  /* Bordas do tabuleiro */
+}
+
+.casa {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+/* Cor das casas */
+.casa.branca {
+    background-color: white;
+}
+
+.casa.preta {
+    background-color: black;
+}
+
+
+.opa{
+height: 40px;
+width: 40px;
+
+}
