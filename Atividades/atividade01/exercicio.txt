@@ -1,0 +1,14 @@
+Adicionar parte de endereço com campos :
+
+CEP
+Endereço
+Número
+Bairro
+Cidade
+Estado
+
+Adicionar parte de Caracteristicas Físicas Com campos:
+
+Altura
+Peso
+Tipo Sanguineo
