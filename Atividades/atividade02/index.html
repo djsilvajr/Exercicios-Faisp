@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .hero {
+            background: #007bff;
+            color: white;
+            padding: 50px 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+        .feature-box {
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 10px;
+            width: 30%;
+        }
+        .cta {
+            margin-top: 30px;
+            padding: 15px 30px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .cta:hover {
+            background: #218838;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature-box {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Bem vindo a nossa Landing page</h1>
+        <p>você está a um passo a frente de resolver seu problema com os nosos serviços.</p>
+        <a href="#contact" class="cta">Conheça nosso serviço</a>
+    </div>
+    <div class="features">
+        <div class="feature-box">
+            <h2>Feature 1</h2>
+            <p>Serviço de alta qualidade que pode corresponder suas necessidades.</p>
+        </div>
+        <div class="feature-box">
+            <h2>Feature 2</h2>
+            <p>Preços acessiveis.</p>
+        </div>
+        <div class="feature-box">
+            <h2>Feature 3</h2>
+            <p>Excelente suporte ao cliente.</p>
+        </div>
+    </div>
+</body>
+</html>
