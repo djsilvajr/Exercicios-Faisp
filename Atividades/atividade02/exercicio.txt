@@ -1,0 +1,3 @@
+1) Acima da div que possui a classe "features" insira uma imagem que pegue toda a horizontal da pagina e coloque 300px de altura.
+
+2)Adicione um rodapé para a pagina.
